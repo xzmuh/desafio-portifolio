@@ -1,0 +1,89 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #22212C;
+}
+
+.container{
+    display: flex;
+    gap: 1rem;
+}
+
+.col1{
+    padding-top: 30px;
+    height: 100vh;
+    flex: 0.7;
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: white 1px solid;
+}
+
+.col2{
+    flex: 25%;
+    border: rgb(190, 111, 111) 1px solid;
+}
+
+.perfil{
+    background-color: #302F3D;
+    width: 310px;
+    border-radius: 20px;
+    box-shadow: 3px 4px #1C1B24;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+}
+
+.infos{
+    background-color: #302F3D;
+    width: 310px;
+    border-radius: 20px;
+    box-shadow: 3px 4px #1C1B24;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 20px 0px 20px 70px;
+}
+
+.infos div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.perfil div img{
+    border: 2px solid rgb(216, 174, 255);
+    margin: 20px 0px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+h3{
+    color: #837E9F;
+    margin-bottom: 5px;
+}
+
+h5{
+    color: #6c6784;
+    text-align: center;
+}
+
+p{
+    font-size: 14px;
+    color: #6c6784;
+}
+
+i{
+    font-size: 14px;
+    color: #6c6784;
+    padding-right: 8px;
+}
