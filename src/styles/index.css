@@ -234,8 +234,79 @@ h5:hover{
     padding-left: 240px;
 }
 
+.posts{
+    width: 980px;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #302F3D;
+    border-radius: 20px;
+    box-shadow: 3px 4px #1C1B24;
+}
+
+.ft-perfil{
+    padding-left: 10px;
+    display: flex;
+    width: 150px;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ft-perfil div img{
+    width: 110px;
+    border-radius: 50%;
+}
+
+.post-title{
+    color: #837E9F;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-top: 25px;
+    /* border: white 1px solid; */
+}
+
+
+.posts-itens{
+    width: 850px;
+    height: 80px;
+    /* border: white 1px solid; */
+}
+
+.posts-content{
+    color: #6c6784;
+    margin-top: 30px;
+    width: 850px;
+    height: 80px;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.posts-content div{
+    margin-top: 10px;
+    display: flex;
+    gap: 1rem;
+    font-weight: bold;
+}
+
 ul li{
     font-size: 14px;
     font-weight: bold;
     color: #837E9F;
+}
+
+footer{
+    margin-top: auto;
+    color: #837E9F;
+    font-weight: bold;
+    font-size: 13px;
+    height: 2rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
