@@ -55,7 +55,7 @@ h5:hover{
 
 .container{
     display: flex;
-    gap: 0.rem;
+    gap: 0rem;
 }
 
 .col1{
@@ -86,7 +86,7 @@ h5:hover{
 
 .perfil{
     background-color: #302F3D;
-    width: 310px;
+    width: 77%;
     border-radius: 20px;
     box-shadow: 3px 4px #1C1B24;
     display: flex;
@@ -97,13 +97,13 @@ h5:hover{
 
 .infos{
     background-color: #302F3D;
-    width: 310px;
+    width: 77%;
     border-radius: 20px;
     box-shadow: 3px 4px #1C1B24;
     display: flex;
     align-items: center;
     justify-content: left;
-    padding: 20px 0px 20px 70px;
+    padding: 20px 0px 20px 50px;
 }
 
 .techs-itens{
@@ -118,18 +118,18 @@ h5:hover{
 
 .tecnologias{
     background-color: #302F3D;
-    width: 310px;
+    width: 77%;
     border-radius: 20px;
     box-shadow: 3px 4px #1C1B24;
     align-items: center;
     justify-content: center;
     padding: 20px 20px 20px 20px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1% 1% 1% 1%;
 }
 
 .experiencias{
     background-color: #302F3D;
-    width: 310px;
+    width: 77%;
     border-radius: 20px;
     box-shadow: 3px 4px #1C1B24;
     align-items: center;
@@ -139,7 +139,7 @@ h5:hover{
 
 .techs{
     padding-top: 8px;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1% 2%;
     gap: 0.6rem;
     font-size: 11px;
     display: grid;
@@ -308,4 +308,64 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 500px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col1{
+        margin-left: 17%;
+        margin-right: 16%;
+    }
+
+    .col2{
+        margin-left: 27%;
+        margin-right: 16%;
+    }
+
+    .perfil{
+        width: 100%;
+    }
+
+    .infos{
+        width: 100%;
+    }
+
+    .tecnologias{
+        width: 100%;
+    }
+
+    .experiencias{
+        width: 100%;
+    }
+
+    .my-projects{
+        width: 152%;
+    }
+
+    .desenvolvimentos{
+        margin-left: 390%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card1{
+        width: 28%;
+        height: 200px;
+    }
+
+    .card-content{
+        width: 100%;
+    }
+
+    .card-footer{
+        margin-top: 5%;
+    }
+
+    .posts{
+      display: none;
+    }
 }
