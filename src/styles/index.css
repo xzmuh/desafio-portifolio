@@ -171,6 +171,31 @@ h5:hover{
     padding: 20px 25px;
 }
 
+.my-projects-all{
+    background-color: #302F3D;
+    width: 980px;
+    height: 75px;
+    border-radius: 20px;
+    box-shadow: 3px 4px #1C1B24;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 25px;
+}
+
+.my-projects-aviso{
+    background-color: #302F3D;
+    width: 980px;
+    height: 75px;
+    border-radius: 20px;
+    box-shadow: 3px 4px #1C1B24;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 25px;
+    display: none;
+}
+
 .my-projects div{
     display: flex;
     align-items: center;
@@ -367,5 +392,23 @@ footer{
 
     .posts{
       display: none;
+    }
+
+    .my-projects-all{
+        font-size: 15px;
+        width: 152%;
+        height: 80px;
+    }
+
+    .my-projects{
+        display: none;
+    }
+
+    .my-projects-aviso{
+        font-size: 15px;
+        width: 150%;
+        margin-left: 2%;
+        height: 80px;
+        display: block;
     }
 }
